@@ -1,0 +1,48 @@
+You are given two strings A and B, find the minimum number of times A has to be repeated such that B is a substring of it. If no such solution, return -1.
+For example, with A = "abcd" and B = "cdabcdab".
+Return 3, because by repeating A three times (“abcdabcdabcd”), B is a substring of it; and B is not a substring of A repeated two times ("abcdabcd").
+
+Input Description:
+Two strings S1 and S2.
+
+Output Description:
+Print the minimum number of times A has to be repeated such that B is a substring of it. If no such solution, return -1
+
+Sample Input:
+abcd cdabcdab
+
+Sample Output:
+3
+
+Explanation:
+By repeating A three times (“abcdabcdabcd”), B is a substring of it; and B is not a substring of A repeated two times ("abcdabcd").
+
+Sample Input:
+dog goddoghog
+
+Sample output:
+-1
+
+Sample Input:
+guvi guvigu
+
+Sample Output:
+2
+
+Sample Input:
+hell ellhellh
+
+Sample Output:
+3
+
+Sample Input:
+poipoi uioppoipoiqe
+
+Sample Output:
+-1
+
+Sample Input:
+fox oxffoxnfox
+
+Sample Output:
+-1
